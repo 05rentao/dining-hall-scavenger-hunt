@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		531E8BB12D919C5B006C43AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531E8B982D919C5A006C43AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531E8B9F2D919C5A006C43AD;
+			remoteInfo = "Penn Dining Scavenger Hunt";
+		};
+		531E8BBB2D919C5B006C43AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531E8B982D919C5A006C43AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531E8B9F2D919C5A006C43AD;
+			remoteInfo = "Penn Dining Scavenger Hunt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		531E8BA02D919C5A006C43AD /* Penn Dining Scavenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Dining Scavenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		531E8BB02D919C5B006C43AD /* Penn Dining Scavenger HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Dining Scavenger HuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		531E8BBA2D919C5B006C43AD /* Penn Dining Scavenger HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Dining Scavenger HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		531E8BA22D919C5A006C43AD /* Penn Dining Scavenger Hunt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Penn Dining Scavenger Hunt";
+			sourceTree = "<group>";
+		};
+		531E8BB32D919C5B006C43AD /* Penn Dining Scavenger HuntTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Penn Dining Scavenger HuntTests";
+			sourceTree = "<group>";
+		};
+		531E8BBD2D919C5B006C43AD /* Penn Dining Scavenger HuntUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Penn Dining Scavenger HuntUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531E8B9D2D919C5A006C43AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531E8BAD2D919C5B006C43AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531E8BB72D919C5B006C43AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531E8B972D919C5A006C43AD = {
+			isa = PBXGroup;
+			children = (
+				531E8BA22D919C5A006C43AD /* Penn Dining Scavenger Hunt */,
+				531E8BB32D919C5B006C43AD /* Penn Dining Scavenger HuntTests */,
+				531E8BBD2D919C5B006C43AD /* Penn Dining Scavenger HuntUITests */,
+				531E8BA12D919C5A006C43AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		531E8BA12D919C5A006C43AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				531E8BA02D919C5A006C43AD /* Penn Dining Scavenger Hunt.app */,
+				531E8BB02D919C5B006C43AD /* Penn Dining Scavenger HuntTests.xctest */,
+				531E8BBA2D919C5B006C43AD /* Penn Dining Scavenger HuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		531E8B9F2D919C5A006C43AD /* Penn Dining Scavenger Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531E8BC42D919C5B006C43AD /* Build configuration list for PBXNativeTarget "Penn Dining Scavenger Hunt" */;
+			buildPhases = (
+				531E8B9C2D919C5A006C43AD /* Sources */,
+				531E8B9D2D919C5A006C43AD /* Frameworks */,
+				531E8B9E2D919C5A006C43AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				531E8BA22D919C5A006C43AD /* Penn Dining Scavenger Hunt */,
+			);
+			name = "Penn Dining Scavenger Hunt";
+			packageProductDependencies = (
+			);
+			productName = "Penn Dining Scavenger Hunt";
+			productReference = 531E8BA02D919C5A006C43AD /* Penn Dining Scavenger Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		531E8BAF2D919C5B006C43AD /* Penn Dining Scavenger HuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531E8BC72D919C5B006C43AD /* Build configuration list for PBXNativeTarget "Penn Dining Scavenger HuntTests" */;
+			buildPhases = (
+				531E8BAC2D919C5B006C43AD /* Sources */,
+				531E8BAD2D919C5B006C43AD /* Frameworks */,
+				531E8BAE2D919C5B006C43AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531E8BB22D919C5B006C43AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				531E8BB32D919C5B006C43AD /* Penn Dining Scavenger HuntTests */,
+			);
+			name = "Penn Dining Scavenger HuntTests";
+			packageProductDependencies = (
+			);
+			productName = "Penn Dining Scavenger HuntTests";
+			productReference = 531E8BB02D919C5B006C43AD /* Penn Dining Scavenger HuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		531E8BB92D919C5B006C43AD /* Penn Dining Scavenger HuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531E8BCA2D919C5B006C43AD /* Build configuration list for PBXNativeTarget "Penn Dining Scavenger HuntUITests" */;
+			buildPhases = (
+				531E8BB62D919C5B006C43AD /* Sources */,
+				531E8BB72D919C5B006C43AD /* Frameworks */,
+				531E8BB82D919C5B006C43AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531E8BBC2D919C5B006C43AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				531E8BBD2D919C5B006C43AD /* Penn Dining Scavenger HuntUITests */,
+			);
+			name = "Penn Dining Scavenger HuntUITests";
+			packageProductDependencies = (
+			);
+			productName = "Penn Dining Scavenger HuntUITests";
+			productReference = 531E8BBA2D919C5B006C43AD /* Penn Dining Scavenger HuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		531E8B982D919C5A006C43AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					531E8B9F2D919C5A006C43AD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					531E8BAF2D919C5B006C43AD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 531E8B9F2D919C5A006C43AD;
+					};
+					531E8BB92D919C5B006C43AD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 531E8B9F2D919C5A006C43AD;
+					};
+				};
+			};
+			buildConfigurationList = 531E8B9B2D919C5A006C43AD /* Build configuration list for PBXProject "Penn Dining Scavenger Hunt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 531E8B972D919C5A006C43AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 531E8BA12D919C5A006C43AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				531E8B9F2D919C5A006C43AD /* Penn Dining Scavenger Hunt */,
+				531E8BAF2D919C5B006C43AD /* Penn Dining Scavenger HuntTests */,
+				531E8BB92D919C5B006C43AD /* Penn Dining Scavenger HuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		531E8B9E2D919C5A006C43AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531E8BAE2D919C5B006C43AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531E8BB82D919C5B006C43AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531E8B9C2D919C5A006C43AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531E8BAC2D919C5B006C43AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		531E8BB62D919C5B006C43AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		531E8BB22D919C5B006C43AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531E8B9F2D919C5A006C43AD /* Penn Dining Scavenger Hunt */;
+			targetProxy = 531E8BB12D919C5B006C43AD /* PBXContainerItemProxy */;
+		};
+		531E8BBC2D919C5B006C43AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 531E8B9F2D919C5A006C43AD /* Penn Dining Scavenger Hunt */;
+			targetProxy = 531E8BBB2D919C5B006C43AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		531E8BC22D919C5B006C43AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		531E8BC32D919C5B006C43AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531E8BC52D919C5B006C43AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Penn Dining Scavenger Hunt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To see if you are near a dining hall.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seas.upenn.edu.class-demo.Penn-Dining-Scavenger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		531E8BC62D919C5B006C43AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Penn Dining Scavenger Hunt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To see if you are near a dining hall.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seas.upenn.edu.class-demo.Penn-Dining-Scavenger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		531E8BC82D919C5B006C43AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seas.upenn.edu.class-demo.Penn-Dining-Scavenger-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Dining Scavenger Hunt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Penn Dining Scavenger Hunt";
+			};
+			name = Debug;
+		};
+		531E8BC92D919C5B006C43AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seas.upenn.edu.class-demo.Penn-Dining-Scavenger-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penn Dining Scavenger Hunt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Penn Dining Scavenger Hunt";
+			};
+			name = Release;
+		};
+		531E8BCB2D919C5B006C43AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seas.upenn.edu.class-demo.Penn-Dining-Scavenger-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penn Dining Scavenger Hunt";
+			};
+			name = Debug;
+		};
+		531E8BCC2D919C5B006C43AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seas.upenn.edu.class-demo.Penn-Dining-Scavenger-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penn Dining Scavenger Hunt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		531E8B9B2D919C5A006C43AD /* Build configuration list for PBXProject "Penn Dining Scavenger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531E8BC22D919C5B006C43AD /* Debug */,
+				531E8BC32D919C5B006C43AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531E8BC42D919C5B006C43AD /* Build configuration list for PBXNativeTarget "Penn Dining Scavenger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531E8BC52D919C5B006C43AD /* Debug */,
+				531E8BC62D919C5B006C43AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531E8BC72D919C5B006C43AD /* Build configuration list for PBXNativeTarget "Penn Dining Scavenger HuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531E8BC82D919C5B006C43AD /* Debug */,
+				531E8BC92D919C5B006C43AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531E8BCA2D919C5B006C43AD /* Build configuration list for PBXNativeTarget "Penn Dining Scavenger HuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531E8BCB2D919C5B006C43AD /* Debug */,
+				531E8BCC2D919C5B006C43AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 531E8B982D919C5A006C43AD /* Project object */;
+}
