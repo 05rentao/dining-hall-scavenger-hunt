@@ -54,19 +54,30 @@ class GameModel : NSObject, CLLocationManagerDelegate {
         }
     }
     
-    func collect(diningHall: DiningHall) {
-        requestLocation()
-        if collected.contains(diningHall.id) { return }
-        if let location = currentLocation {
-            if location.distance(from: CLLocation(latitude: diningHall.lat, longitude: diningHall.lon)) < 50 {
-                if let index = DiningHall.diningHalls.firstIndex(where: { $0.id == diningHall.id }) {
-                    DiningHall.diningHalls[index].collected = true
-                    collected.insert(diningHall.id)
-                }
-            }
-        } else {
-            state = GameState.error
+    func withinRange(diningHall: DiningHall) -> Bool {
+        guard let location = currentLocation else {
+            state = .error
+            return false
         }
+        if location.distance(from: CLLocation(latitude: diningHall.lat, longitude: diningHall.lon)) < 50 {
+            return true
+        } else {
+            return false
+        }
+    }
+    
+    func collect(diningHall: DiningHall) {
+        guard let location = currentLocation else {
+            state = .error
+            return
+        }
+        
+        if collected.contains(diningHall.id) || state != .collect { return }
+        
+        if withinRange(diningHall: diningHall){
+            collected.insert(diningHall.id)
+            state = .running
+        } 
     }
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
@@ -96,17 +107,19 @@ class GameModel : NSObject, CLLocationManagerDelegate {
         currentLocation = location
         isRequestingLocation = false
     }
-        
+    
     func handleMotion(_ motion: CMDeviceMotion) {
         switch state {
         case .collect:
-            let xRot = motion.rotationRate.x
-            let yRot = motion.rotationRate.y
-            let zRot = motion.rotationRate.z
+            let xAccel = motion.userAcceleration.x
+            let yAccel = motion.userAcceleration.y
+            let zAccel = motion.userAcceleration.z
             
-            let rotRate = sqrt(xRot * xRot + yRot * yRot + zRot * zRot)
-            
-            if rotRate > 20 {
+            let acceleration = sqrt(xAccel * xAccel + yAccel * yAccel + zAccel * zAccel)
+                    
+            let shakeThreshold = 1.5 // Experiment with different values (1.5–3.0 works well)
+
+            if acceleration > shakeThreshold {
                 if let diningHall = currentDiningHall {
                     collect(diningHall: diningHall)
                 } else {
@@ -114,27 +127,14 @@ class GameModel : NSObject, CLLocationManagerDelegate {
                     return
                 }
             }
-            
         default:
             // Do nothing
             break
         }
     }
-    /*
-     let request = MKLocalPointsOfInterestRequest(center: location.coordinate, radius: 2000)
-     request.pointOfInterestFilter = MKPointOfInterestFilter(including: [.restaurant, .foodMarket, .bakery, .cafe])
-     
-     let search = MKLocalSearch(request: request)
-     fetchPlaces(search: search)
-     */
-    
         
     func isCollected(dhall: DiningHall) -> Bool {
         return collected.contains(dhall.id)
-    }
-    
-    func collect(dhall: DiningHall) {
-        collected.insert(dhall.id)
     }
     
     var uncollectedHalls: [DiningHall] {

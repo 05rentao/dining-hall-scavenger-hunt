@@ -20,4 +20,5 @@ enum GameState : Equatable {
     
     // when the player is in the collection screen and can collect that dining hall
     case collect
+    
 }

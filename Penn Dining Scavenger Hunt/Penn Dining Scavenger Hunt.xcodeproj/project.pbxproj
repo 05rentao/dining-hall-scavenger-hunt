@@ -27,6 +27,17 @@
 		531E8BA02D919C5A006C43AD /* Penn Dining Scavenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn Dining Scavenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531E8BB02D919C5B006C43AD /* Penn Dining Scavenger HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Dining Scavenger HuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531E8BBA2D919C5B006C43AD /* Penn Dining Scavenger HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penn Dining Scavenger HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5387970D2D96359E00BD1B97 /* Joes.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Joes.gpx; path = "../hw3-gpx-main/Joes.gpx"; sourceTree = "<group>"; };
+		5387970E2D96359E00BD1B97 /* Lauder.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Lauder.gpx; path = "../hw3-gpx-main/Lauder.gpx"; sourceTree = "<group>"; };
+		5387970F2D96359E00BD1B97 /* Pret.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Pret.gpx; path = "../hw3-gpx-main/Pret.gpx"; sourceTree = "<group>"; };
+		538797102D96359E00BD1B97 /* Quaker Kitchen.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Quaker Kitchen.gpx"; path = "../hw3-gpx-main/Quaker Kitchen.gpx"; sourceTree = "<group>"; };
+		538797112D96359E00BD1B97 /* Falk.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Falk.gpx; path = "../hw3-gpx-main/Falk.gpx"; sourceTree = "<group>"; };
+		538797122D96359E00BD1B97 /* Hill.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Hill.gpx; path = "../hw3-gpx-main/Hill.gpx"; sourceTree = "<group>"; };
+		538797132D96359E00BD1B97 /* Accenture.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Accenture.gpx; path = "../hw3-gpx-main/Accenture.gpx"; sourceTree = "<group>"; };
+		538797142D96359E00BD1B97 /* 1920 Commons.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "1920 Commons.gpx"; path = "../hw3-gpx-main/1920 Commons.gpx"; sourceTree = "<group>"; };
+		538797152D96359E00BD1B97 /* KCEH.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = KCEH.gpx; path = "../hw3-gpx-main/KCEH.gpx"; sourceTree = "<group>"; };
+		538797162D96359E00BD1B97 /* McClelland.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = McClelland.gpx; path = "../hw3-gpx-main/McClelland.gpx"; sourceTree = "<group>"; };
+		538797172D96359E00BD1B97 /* Houston.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Houston.gpx; path = "../hw3-gpx-main/Houston.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +86,17 @@
 		531E8B972D919C5A006C43AD = {
 			isa = PBXGroup;
 			children = (
+				538797142D96359E00BD1B97 /* 1920 Commons.gpx */,
+				538797132D96359E00BD1B97 /* Accenture.gpx */,
+				538797112D96359E00BD1B97 /* Falk.gpx */,
+				538797122D96359E00BD1B97 /* Hill.gpx */,
+				538797172D96359E00BD1B97 /* Houston.gpx */,
+				5387970D2D96359E00BD1B97 /* Joes.gpx */,
+				538797152D96359E00BD1B97 /* KCEH.gpx */,
+				5387970E2D96359E00BD1B97 /* Lauder.gpx */,
+				538797162D96359E00BD1B97 /* McClelland.gpx */,
+				5387970F2D96359E00BD1B97 /* Pret.gpx */,
+				538797102D96359E00BD1B97 /* Quaker Kitchen.gpx */,
 				531E8BA22D919C5A006C43AD /* Penn Dining Scavenger Hunt */,
 				531E8BB32D919C5B006C43AD /* Penn Dining Scavenger HuntTests */,
 				531E8BBD2D919C5B006C43AD /* Penn Dining Scavenger HuntUITests */,
