@@ -8,14 +8,12 @@
 import SwiftUI 
 
 struct DiningHallDetailView: View {
-    @Environment(GameModel.self) var gameModel
+    @EnvironmentObject var gameModel : GameModel
     let diningHall: DiningHall
     
     private func collectingMode() {
         gameModel.currentDiningHall = diningHall
-        if gameModel.withinRange(diningHall: diningHall) {
-            gameModel.state = .collect
-        }
+        gameModel.state = .collect
     }
     private func resetCollection() {
         gameModel.currentDiningHall = nil
@@ -46,21 +44,13 @@ struct DiningHallDetailView: View {
                     .font(.title2)
                     .fontWeight(.bold)
             }
-            Button("collect") {
-                gameModel.collect(diningHall: diningHall)
-            }
-                .font(.headline)
-                .padding(10)
-                .foregroundColor(.white)
-                .background(Color.blue)
-                .clipShape(RoundedRectangle(cornerRadius: 10))
             Spacer()
-            if gameModel.withinRange(diningHall: diningHall) {
-                Text("Collection possible, within 50 feet")
+            if gameModel.withinRange(diningHall: diningHall) && !gameModel.isCollected(dhall: diningHall) {
+                Text("Collection possible: \(String(format: "%.10f", gameModel.dist)) meters away")
                     .fontWeight(.bold)
                     .foregroundStyle(.green)
-            } else {
-                Text("Collection not possible: too far away")
+            } else if !gameModel.withinRange(diningHall: diningHall) {
+                Text("Collection not possible: \(String(format: "%10f", gameModel.dist)) meters away")
                     .fontWeight(.bold)
                     .foregroundStyle(.red)
             }

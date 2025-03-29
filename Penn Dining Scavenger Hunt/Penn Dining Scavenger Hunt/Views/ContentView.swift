@@ -51,9 +51,9 @@ struct ContentView: View {
                                     .frame(maxWidth: .infinity, alignment: .center)
                                     .font(.title)
                                 Button("OK") {
-                                    locPromptVisible = false
-                                    gameModel.state = .running
                                     gameModel.beginGame()
+                                    gameModel.state = .running
+                                    locPromptVisible = false
                                 }
                                 
                 }

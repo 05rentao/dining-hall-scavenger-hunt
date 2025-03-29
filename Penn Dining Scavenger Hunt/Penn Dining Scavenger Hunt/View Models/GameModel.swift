@@ -12,7 +12,7 @@ import MapKit
 import Observation
 
 @Observable
-class GameModel : NSObject, CLLocationManagerDelegate {
+class GameModel : NSObject, ObservableObject, CLLocationManagerDelegate {
     var state = GameState.notRunning
     
     var score  = 0
@@ -24,6 +24,8 @@ class GameModel : NSObject, CLLocationManagerDelegate {
     
     var currentLocation: CLLocation?
     var currentDiningHall: DiningHall?
+    
+    var dist = -1.0
     
     override init() {
         super.init()
@@ -54,12 +56,23 @@ class GameModel : NSObject, CLLocationManagerDelegate {
         }
     }
     
+    func getDist(diningHall: DiningHall) -> Double? {
+        requestLocation()
+        guard let location = currentLocation else {
+            state = .error
+            return nil
+        }
+        print("distance: \(location.distance(from: CLLocation(latitude: diningHall.lat, longitude: diningHall.lon))) meters to \(diningHall.name)")
+        dist = location.distance(from: CLLocation(latitude: diningHall.lat, longitude: diningHall.lon))
+        return dist
+    }
+    
     func withinRange(diningHall: DiningHall) -> Bool {
         guard let location = currentLocation else {
             state = .error
             return false
         }
-        if location.distance(from: CLLocation(latitude: diningHall.lat, longitude: diningHall.lon)) < 50 {
+        if getDist(diningHall: diningHall)! < 50 {
             return true
         } else {
             return false
@@ -67,6 +80,7 @@ class GameModel : NSObject, CLLocationManagerDelegate {
     }
     
     func collect(diningHall: DiningHall) {
+        requestLocation()
         guard let location = currentLocation else {
             state = .error
             return
@@ -76,8 +90,7 @@ class GameModel : NSObject, CLLocationManagerDelegate {
         
         if withinRange(diningHall: diningHall){
             collected.insert(diningHall.id)
-            state = .running
-        } 
+        }
     }
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {

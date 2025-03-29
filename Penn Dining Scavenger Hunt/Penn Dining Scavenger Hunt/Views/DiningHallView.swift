@@ -39,6 +39,15 @@ struct DiningHallView: View {
             .scrollContentBackground(.hidden)
             .headerProminence(.increased)
             .navigationTitle("Gotta collect em' all!")
+            Button("Clear Progress") {
+                gameModel.collected = Set<String>()
+            }
+            .font(.headline)
+                .padding(10)
+                .foregroundColor(.white)
+                .background(Color.blue)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+            
             Spacer()
         }
         .onAppear() {
